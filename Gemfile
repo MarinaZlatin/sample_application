@@ -52,10 +52,10 @@ group :development do
   # Access an IRB console on exception pages or by using <%= console %> in views
   gem 'web-console', '~> 2.0'
 end
+gem 'capybara', '2.7.1'
 
 group :test do
   gem 'selenium-webdriver', '2.35.1'
-  gem 'capybara', '2.7.1'
   gem 'factory_girl_rails', '4.7.0'
   gem 'cucumber-rails', '1.4.3', :require => false
   gem 'database_cleaner', github: 'bmabey/database_cleaner'
